@@ -181,7 +181,9 @@
     if (toIndex < _countOfItems && toIndex >= 0 && fromIndex < _countOfItems && fromIndex >= 0) {
         _curIndex = toIndex;
         [self transitionFromIndex:fromIndex toIndex:toIndex animated:animate];
-        [_collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:toIndex inSection:0] atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:animate];
+        if(_collectionView.scrollEnabled){
+            [_collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:toIndex inSection:0] atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:animate];
+        }
     }
 }
 
