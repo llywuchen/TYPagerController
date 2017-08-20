@@ -68,7 +68,8 @@
 
 - (void)popBack
 {
-    [self.navigationController popViewControllerAnimated:YES];
+//    [self.navigationController popViewControllerAnimated:YES];
+     [self.navigationController pushViewController:[UIViewController new] animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

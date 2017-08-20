@@ -210,11 +210,15 @@
         return;
     }
     
+    UICollectionViewCell<TYTabPagerBarCellProtocol> *cell = [_pagerTabBar cellForIndex:index];
+    
     CGRect cellFrame = [self cellFrameWithIndex:index];
-    CGFloat progressHorEdging = _progressWidth > 0 ? (cellFrame.size.width - _progressWidth)/2 : _progressHorEdging;
-    CGFloat progressX = cellFrame.origin.x+progressHorEdging;
+    CGFloat titleWidth = [_pagerTabBar cellWidthForTitle:cell.titleLabel.text];
+//    CGFloat progressHorEdging = _progressWidth > 0 ? (cellFrame.size.width - _progressWidth)/2 : _progressHorEdging;
+    CGFloat progressX = cellFrame.origin.x + (cellFrame.size.width - titleWidth)/2;
     CGFloat progressY = _barStyle == TYPagerBarStyleCoverView ? (cellFrame.size.height - _progressHeight)/2:(cellFrame.size.height - _progressHeight - _progressVerEdging);
-    CGFloat width = cellFrame.size.width-2*progressHorEdging;
+//    CGFloat width = cellFrame.size.width-2*progressHorEdging;
+    CGFloat width = titleWidth;
     
     if (animated) {
         [UIView animateWithDuration:_animateDuration animations:^{
