@@ -231,6 +231,7 @@
 
 - (void)setUnderLineFrameWithfromIndex:(NSInteger)fromIndex toIndex:(NSInteger)toIndex progress:(CGFloat)progress
 {
+    return;
     UIView *progressView = _pagerTabBar.progressView;
     if (progressView.isHidden || _pagerTabBar.countOfItems == 0) {
         return;
