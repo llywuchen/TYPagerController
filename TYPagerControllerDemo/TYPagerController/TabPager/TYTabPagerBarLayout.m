@@ -156,6 +156,7 @@
     if (_pagerTabBar.countOfItems == 0) {
         return;
     }
+    animate = NO;
     void (^animateBlock)() = ^{
         if (fromCell) {
             fromCell.titleLabel.font = _normalTextFont;

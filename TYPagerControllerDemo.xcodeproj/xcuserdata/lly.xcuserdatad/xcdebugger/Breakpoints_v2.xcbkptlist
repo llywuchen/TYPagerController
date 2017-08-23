@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerBarLayout.m"
-            timestampString = "525098561.964449"
+            timestampString = "525145436.887746"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "253"
-            endingLineNumber = "253"
+            startingLineNumber = "254"
+            endingLineNumber = "254"
             landmarkName = "-setUnderLineFrameWithfromIndex:toIndex:progress:"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,39 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerBarLayout.m"
-            timestampString = "525098561.964449"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "271"
-            endingLineNumber = "271"
-            landmarkName = "-setUnderLineFrameWithfromIndex:toIndex:progress:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerBarLayout.m"
-            timestampString = "525098561.964449"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "289"
-            endingLineNumber = "289"
-            landmarkName = "-setUnderLineFrameWithfromIndex:toIndex:progress:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerBarLayout.m"
-            timestampString = "525098561.964449"
+            timestampString = "525145436.887746"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "272"
@@ -74,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerBarLayout.m"
-            timestampString = "525098561.964449"
+            timestampString = "525145436.887746"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "281"
-            endingLineNumber = "281"
+            startingLineNumber = "290"
+            endingLineNumber = "290"
             landmarkName = "-setUnderLineFrameWithfromIndex:toIndex:progress:"
             landmarkType = "7">
          </BreakpointContent>
@@ -90,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerBarLayout.m"
-            timestampString = "525098561.964449"
+            timestampString = "525145436.887746"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "239"
-            endingLineNumber = "239"
+            startingLineNumber = "273"
+            endingLineNumber = "273"
             landmarkName = "-setUnderLineFrameWithfromIndex:toIndex:progress:"
             landmarkType = "7">
          </BreakpointContent>
@@ -106,11 +74,43 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerBarLayout.m"
-            timestampString = "525098561.964449"
+            timestampString = "525145436.887746"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "293"
-            endingLineNumber = "293"
+            startingLineNumber = "282"
+            endingLineNumber = "282"
+            landmarkName = "-setUnderLineFrameWithfromIndex:toIndex:progress:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerBarLayout.m"
+            timestampString = "525145436.887746"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "240"
+            endingLineNumber = "240"
+            landmarkName = "-setUnderLineFrameWithfromIndex:toIndex:progress:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerBarLayout.m"
+            timestampString = "525145436.887746"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "294"
+            endingLineNumber = "294"
             landmarkName = "-layoutSubViews"
             landmarkType = "7">
          </BreakpointContent>
@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerBarLayout.m"
-            timestampString = "525096685.389926"
+            timestampString = "525145436.887746"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "213"
-            endingLineNumber = "213"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
             landmarkName = "-setUnderLineFrameWithIndex:animated:"
             landmarkType = "7">
          </BreakpointContent>
