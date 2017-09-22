@@ -217,6 +217,11 @@
     CGFloat titleWidth = [_pagerTabBar cellWidthForTitle:cell.titleLabel.text];
 //    CGFloat progressHorEdging = _progressWidth > 0 ? (cellFrame.size.width - _progressWidth)/2 : _progressHorEdging;
     CGFloat progressX = cellFrame.origin.x + (cellFrame.size.width - titleWidth)/2;
+    if(cell.titleLabel.textAlignment==NSTextAlignmentLeft){
+        progressX = cellFrame.origin.x;
+    }else if (cell.titleLabel.textAlignment==NSTextAlignmentRight){
+        progressX = cellFrame.origin.x + cellFrame.size.width - titleWidth;
+    }
     CGFloat progressY = _barStyle == TYPagerBarStyleCoverView ? (cellFrame.size.height - _progressHeight)/2:(cellFrame.size.height - _progressHeight - _progressVerEdging);
 //    CGFloat width = cellFrame.size.width-2*progressHorEdging;
     CGFloat width = titleWidth;
