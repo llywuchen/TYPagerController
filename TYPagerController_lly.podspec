@@ -1,21 +1,21 @@
 Pod::Spec.new do |s|
 # 名称 使用的时候pod search [name]
-s.name = "TYPagerController"
+s.name = "TYPagerController_lly"
 # 代码库的版本
-s.version = "2.0.1"
+s.version = "0.0.1"
 # 简介
 s.summary = "page scroll View controller,simple,high custom,and have tabBar styles."
 # 主页
-s.homepage = "https://github.com/12207480/TYPagerController"
+s.homepage = "https://github.com/llywuchen/TYPagerController"
 # 许可证书类型，要和仓库的LICENSE 的类型一致
 s.license = { :type => 'MIT', :file => 'LICENSE' }
 # 作者名称 和 邮箱
-s.author = { "tany" => "122074809@qq.com" }
+s.author = { "llywuchen" => "576061110@qq.com" }
 # 作者主页 s.social_media_url =""
 # 代码库最低支持的版本
 s.platform = :ios, "7.0"
 # 代码的Clone 地址 和 tag 版本
-s.source = { :git => "https://github.com/12207480/TYPagerController.git", :tag => s.version.to_s }
+s.source = { :git => "https://github.com/llywuchen/TYPagerController.git", :tag => s.version.to_s }
 # 如果使用pod 需要导入哪些资源
 s.source_files = "TYPagerControllerDemo/TYPagerController/**/*.{h,m}"
 # s.resources = "**/*/*.bundle"
