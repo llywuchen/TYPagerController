@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 # 名称 使用的时候pod search [name]
 s.name = "TYPagerController_lly"
 # 代码库的版本
-s.version = "0.0.2"
+s.version = "0.0.3"
 # 简介
 s.summary = "page scroll View controller,simple,high custom,and have tabBar styles."
 # 主页
